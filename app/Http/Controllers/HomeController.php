@@ -35,8 +35,8 @@ class HomeController extends Controller
 
 
     public function about() {
-        $about = About::first();
-        return view('about', compact('about'));
+
+        return view('about');
     }
 
 

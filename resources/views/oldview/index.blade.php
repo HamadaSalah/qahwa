@@ -218,4 +218,19 @@
   </div>
 
  
+  <div class="missionandvission mt-5">
+    <div class="container">
+        <div class="row color-white">
+            <h1 class="mt-5">OUR MISSION</h1>
+            <p>Qahwa Valley is a mission-driven company dedicated to providing premium, globally
+                competitive coffee by empowering coffee farmers in Yemen. We follow a comprehensive
+                approach grounded in two key strategies:</p>
+                <ul>
+                    <li>Support Yemenite farmers with a focus on equity and sustainable practices.</li>
+                    <li>Operate as a social enterprise, reinvesting in communities to create vibrant
+                        neighborhoods where farmers can live, learn, work, and thrive.</li>
+                </ul>
+        </div>
+    </div>
+</div>
 @endsection

@@ -9,14 +9,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{ route('home') }}">About
+                    <a class="nav-link active" aria-current="page" href="{{ route('about') }}">About
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('menu') }}">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('location') }}">Location</a>
+                    <a class="nav-link" href="{{ route('location') }}">Hours and Location</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('contacts') }}">Contact Us</a>

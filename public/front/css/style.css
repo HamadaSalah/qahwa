@@ -742,6 +742,53 @@ textarea.form-control {
     animation: loadingB 1.5s 0s infinite;
   }
   
+
+.missionandvission {
+    color: #FFF;
+}
+
+.missionandvission h1 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+
+}
+.missionandvission p , .missionandvission li{
+    color: #c4c4c4;
+}
+
+.missionandvission li {
+list-style: circle!important;
+}
+
+.missionandvission ul {
+    padding-left: 30px;
+}
+.missionandvission h1::after {
+    background: #f9b074 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0%;
+    margin-left: 20px;
+    position: absolute;
+    width: 100px;
+}
+.myborderr {
+    width: 50%;
+    height: 2px;
+    border-radius: 25px;
+    background-color: #a57f48;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
   @keyframes loadingB {
     0 {
       width: 15px;
@@ -754,8 +801,6 @@ textarea.form-control {
     }
   }
   
-
-
 
 
 
