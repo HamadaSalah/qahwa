@@ -47,6 +47,49 @@
 		<label for="email">Email</label>
 		<input type="text" class="form-control" name="email" id="email" value="{{$settings->email}}" >
 	</div>
+	<div class="form-group">
+		<label for="email">SHop Now</label>
+		<input type="text" class="form-control" name="shop_now" id="email" value="{{$settings->shop_now}}" >
+	</div>
+	<div class="form-group">
+		<label for="email">Private Dining</label>
+		<input type="text" class="form-control" name="private_dining" id="email" value="{{$settings->private_dining}}" >
+	</div>
+	<div class="form-group">
+        <label for="private_img">Private Dining</label>
+        <input type="file" class="form-control" id="private_img" name="private_img" value="{{$settings->private_img}}" accept="png,PNG,jpg,jpeg,webp"   >
+    </div>
+
+	<div class="form-group">
+		<label for="about_page_1">About Page Section 1</label>
+		<input type="text" class="form-control" name="about_page_1" id="about_page_1" value="{{$settings->about_page_1}}" >
+	</div>
+	<div class="form-group">
+        <label for="about_page_1_img">About Page Section 1</label>
+        <input type="file" class="form-control" id="about_page_1_img" name="about_page_1_img" value="{{$settings->about_page_1_img}}" accept="png,PNG,jpg,jpeg,webp"   >
+    </div>
+
+	<div class="form-group">
+		<label for="about_page_2">About Page Section2</label>
+		<input type="text" class="form-control" name="about_page_2" id="about_page_2" value="{{$settings->about_page_2}}" >
+	</div>
+	<div class="form-group">
+        <label for="about_page_2_img">About Page Section 2</label>
+        <input type="file" class="form-control" id="about_page_2_img" name="about_page_2_img" value="{{$settings->about_page_2_img}}" accept="png,PNG,jpg,jpeg,webp"   >
+    </div>
+
+	<div class="form-group">
+		<label for="mission">mission</label>
+		<input type="text" class="form-control" name="mission" id="mission" value="{{$settings->mission}}" >
+	</div>
+	<div class="form-group">
+		<label for="purpose">purpose</label>
+		<input type="text" class="form-control" name="purpose" id="purpose" value="{{$settings->purpose}}" >
+	</div>
+	<div class="form-group">
+		<label for="location">location</label>
+		<input type="text" class="form-control" name="location" id="location" value="{{$settings->location}}" >
+	</div>
     <div class="form-group">
     <button class="btn btn-primary">Update Data</button>
     </div>

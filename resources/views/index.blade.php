@@ -66,7 +66,7 @@
                         <form action="{{route('AddToCart', $seller->id)}}" method="POST" style="display: inline-block">
                             @csrf
                             <button class="btn   addtocart" type="submit">
-                                <img src="{{ asset('front/img/cart2.svg') }}" alt="" style="width: 27px;margin-right: 10px">
+                                <img src="{{ asset('front/img/Frame 1.svg') }}" alt="" style="width: 27px;margin-right: 10px">
                                   </i> <span class="Price">{{ $seller->price }}$</span>
                             </button>
                         </form>
@@ -89,7 +89,7 @@
                   <p>OUR MENU</p>
                   <h1>Discover Menu</h1>
 
-                  <nav>
+                  <nav style="height: 90px;">
                       <div class="nav nav-tabs" id="nav-tab" role="tablist">
 
                         @foreach ($categories as $key => $category)
@@ -176,15 +176,11 @@
 </div>
 <div class="missionandvission mt-5">
     <div class="container">
-        <div class="row color-white">
+        <div class="row">
             <h1 class="mt-5">SHOP NOW</h1>
             <p>
-                <b style="color: #FFF;display: block;margin-bottom: 10px">Bring Qahwa Valley Home!</b>
-                Experience the rich flavors of Yemen from the comfort of your home. Choose from our
-                selection of premium coffees, each offering distinct tasting notes like [xyz] that reflect the
-                unique terroir of Yemen. Whether you're a connoisseur or simply love a great cup of coffee, our
-                beans are freshly roasted and ethically sourced to deliver the Qahwa Valley difference straight
-                to your door
+                <b style="color: #422D2A;display: block;margin-bottom: 10px">Bring Qahwa Valley Home!</b>
+                {!! Settings()->shop_now !!}
             </p>
         </div>
     </div>
@@ -193,20 +189,14 @@
 <section id="infoUs mt-5" class="section infoUs" style="padding-top: 100px">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 mt-5" style="color: #fff">
+            <div class="col-md-6 mt-5" style="color: #422D2A">
                 <h1 class="title">PRIVATE DINING & EVENTS</h1>
                 <aside>
-                    <p>Our private dining area offers the perfect setting for remote work sessions, corporate
-                        meetings, or social gatherings. Whether you're hosting a business meeting, a party, or need a
-                        quiet space for remote work, our space provides a cozy, elegant atmosphere enriched with
-                        Yemeni tradition. Guests can enjoy exclusive access to our premium coffee selections, along
-                        with a curated menu of teas, spices, and small plates. At Qahwa Valley, we create a
-                        personalized, memorable experience for any occasion, blending productivity and relaxation in a
-                        culturally immersive environment.</p>
+                    <p>{!! Settings()->private_dining !!}</p>
                 </aside>
             </div>
             <div class="col-md-6">
-                    <img alt="" src="{{ asset('front/img/1851.jpg') }}" style="max-width: 100%; height: 300px;float: right;border-radius: 5px">
+                    <img alt="" src="{{ asset('images/'.Settings()->private_img) }}" style="max-width: 100%; height: 300px;float: right;border-radius: 5px">
             </div>
         </div>
     </div>

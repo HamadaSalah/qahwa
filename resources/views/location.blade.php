@@ -3,9 +3,9 @@
  
 <div class="googlemaps" style="text-align: center;">
     <div class="container">
-        <div class="row">
-            <h1 class="mt-5 mb-5 text-white">OUR LOCATION ON MAPS</h1>           
-             <p style="color: #FFF">
+        <div class="row" style="color: #44220A">
+            <h1 class="mt-5 mb-5">OUR LOCATION ON MAPS</h1>           
+             <p style="color: #44220A">
                 We are located in a prime location in Midtown Manhattan. A few blocks away from the
 United Nations at 630 1st Ave.
             </p>

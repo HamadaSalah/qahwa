@@ -5,7 +5,7 @@
 
 html,
 body {
-    background-color: #383431;
+    background-color: #fff;
 }
 
 * {
@@ -39,18 +39,18 @@ a {
 
 .mycarousel img {
     height: 660px;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .bg-body-tertiary {
-    background-color: #383431 !important;
+    background-color: #fff !important;
 }
 
 .nav-link,
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show,
 .rightIcons i {
-    color: #fff !important;
+    color: #452D27 !important;
 }
 
 .carousel-caption {
@@ -64,12 +64,12 @@ a {
 .carousel-caption h5 {
     font-size: 70px;
     font-weight: bold;
-    color: #f9b074;
+    color: #452D27;
     padding-right: 60%;
 }
 
 .aboutus {
-    background: #383431;
+    background: #fff;
     min-height: 500px;
     padding: 100px 0;
     display: block;
@@ -102,7 +102,7 @@ a {
 
 .rightabout {
     padding: 40px 200px 50px 0;
-    color: #fff;
+    color: #452D27;
 }
 
 .rightabout h2 {
@@ -112,6 +112,7 @@ a {
 
 .rightabout p {
     font-weight: 400 !important;
+    color: #f9b074;
 }
 
 .gbbtn {
@@ -122,7 +123,7 @@ a {
 }
 
 .gbbtn:hover {
-    background-color: #f9b074;
+    background-color: #C28D3D;
     color: #fff;
     border-radius: 25px;
     padding: 10px 50px;
@@ -131,12 +132,12 @@ a {
 .bestSeller {
     width: 100%;
     padding: 60px 0;
-    background-color: #383431;
+    background-color: #fff;
 }
 
 .bestSeller h1 {
     font-size: 50px;
-    color: #fff;
+    color: #452D27;
     font-weight: bold;
     margin-bottom: 200px;
     letter-spacing: 1px;
@@ -146,7 +147,7 @@ a {
     text-align: center;
     min-height: 280px;
     border-radius: 15px;
-    background: #f9b074;
+    background: #422D2A;
     margin: 10px;
     margin-bottom: 160px;
     padding-bottom: 30px;
@@ -156,21 +157,22 @@ a {
 .bestSell > img {
     margin-top: -100px;
     text-align: center;
+    max-width: 240px;
 }
 
 .bestSell h3 {
-    color: #383431;
+    color: #E1D3AE;
     font-weight: bold;
 }
 
 .bestSell p {
-    color: #534d49;
+    color: #E1D3AE;
     padding: 10px 0;
 }
 
 .Price {
-    background: #383431;
-    color: #fff;
+    background: #E1D3AE;
+    color: #422D2A;
     padding: 7px 32px;
     border-radius: 25px;
 }
@@ -183,18 +185,20 @@ a {
 }
 
 .ourmenu {
-    background-color: #383431;
+     background-image: url('../img/bgg.png')  ;
+     background-repeat: no-repeat;
+     background-size: contain;
+     padding-bottom: 50px;
 }
 
 .mymenu {
     width: 100%;
-    background-color: #fff;
-    border-radius: 25px;
+     border-radius: 25px;
     min-height: 800px;
-    padding: 80px;
+    padding: 100px;
     text-align: center;
     margin: auto;
-}
+ }
 
 .mymenu h1 {
     font-weight: bold;
@@ -571,7 +575,7 @@ textarea.form-control {
     background-color: #f9b074;
 }
 .mymenu {
-    padding: 30px 15px;
+    padding: 100px;
 }
 .table.table-bordered thead th {
     background-color: #f9b074;
@@ -744,7 +748,7 @@ textarea.form-control {
   
 
 .missionandvission {
-    color: #FFF;
+    color: #422D2A;
 }
 
 .missionandvission h1 {
@@ -754,7 +758,7 @@ textarea.form-control {
 
 }
 .missionandvission p , .missionandvission li{
-    color: #c4c4c4;
+    color: #422D2A;
 }
 
 .missionandvission li {

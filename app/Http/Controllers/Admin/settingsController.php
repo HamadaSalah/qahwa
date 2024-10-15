@@ -7,6 +7,7 @@ use App\Models\Setting;
 use App\Models\User;
 use App\Models\WebsiteData;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class settingsController extends Controller
 {
@@ -40,6 +41,34 @@ class settingsController extends Controller
     public function store(Request $request)
     {
         $requestData = $request->except('_token');
+
+        if ($request->hasFile('private_img')) {
+            $file = $request->file('private_img');
+            $ext = $file->getClientOriginalExtension();
+            $filename = 'sliderIMG'.'_'.time().'.'.$ext;
+            $destinationPath = public_path().'/assets/img' ;
+            $storagePath = Storage::disk('public_uploads')->put('/images', $file) ;
+            $storageName = basename($storagePath);
+            $requestData['private_img'] = $storageName;
+        }
+        if ($request->hasFile('about_page_1_img')) {
+            $file = $request->file('about_page_1_img');
+            $ext = $file->getClientOriginalExtension();
+            $filename = 'sliderIMG'.'_'.time().'.'.$ext;
+            $destinationPath = public_path().'/assets/img' ;
+            $storagePath = Storage::disk('public_uploads')->put('/images', $file) ;
+            $storageName = basename($storagePath);
+            $requestData['about_page_1_img'] = $storageName;
+        }
+        if ($request->hasFile('about_page_2_img')) {
+            $file = $request->file('about_page_2_img');
+            $ext = $file->getClientOriginalExtension();
+            $filename = 'sliderIMG'.'_'.time().'.'.$ext;
+            $destinationPath = public_path().'/assets/img' ;
+            $storagePath = Storage::disk('public_uploads')->put('/images', $file) ;
+            $storageName = basename($storagePath);
+            $requestData['about_page_2_img'] = $storageName;
+        }
 
         $settings = WebsiteData::first();
 
