@@ -89,7 +89,7 @@
                   <p>OUR MENU</p>
                   <h1>Discover Menu</h1>
 
-                  <nav style="height: 90px;">
+                  <nav style="height: 330px;">
                       <div class="nav nav-tabs" id="nav-tab" role="tablist">
 
                         @foreach ($categories as $key => $category)
@@ -111,7 +111,7 @@
                         <div class="row">
                                 <div class="col-md-6">
                                     <div class="menus">
-                                        <div class="row">
+                                        <div class="row"   style="margin-top: -90px">
                                             @foreach ($category->products->slice(0, ceil($category->products->count()/2)) as $prod)
                                                 <div class="oneMenu">
                                                     <img src="{{ asset('images/'.$prod->img) }}">
@@ -137,7 +137,7 @@
 
                                 <div class="col-md-6">
                                     <div class="menus">
-                                        <div class="row">
+                                        <div class="row"  style="margin-top: -90px">
                                             @foreach ($category->products->slice(ceil($category->products->count()/2), ceil($category->products->count())) as $prod)
                                                 <div class="oneMenu">
                                                     <img src="{{ asset('images/'.$prod->img) }}">
@@ -165,6 +165,7 @@
                     </div>
                     @endforeach
                 </div>
+                <div class="clearfix mt-5"></div>
                       <a href="{{ route('menu') }}"><button class="btn mybtn">FULL MENU</button></a>
 
             </div>

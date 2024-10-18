@@ -232,6 +232,9 @@ body {
   background-color: #F8F2EA;
 
 }
+.nav-item{
+  margin-right: 20px;
+ }
 
 .testmon {
   display: block;
@@ -836,7 +839,7 @@ a:hover {
   .navbar-light .navbar-nav .nav-link.active, 
   .navbar-light .navbar-nav .show>.nav-link {
     padding: 3px;
-  }
+   }
   /* #myTab {
     width: 100%;
     overflow-x: auto;  
