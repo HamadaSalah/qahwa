@@ -857,6 +857,17 @@ list-style: circle!important;
 @media screen and (max-width: 1199px) {
     .carousel-caption h5 {
         padding-right: 0;
+        font-size: 20px;
+        text-shadow: 0 0 5px #ccc;
+    }
+    .menus::before {
+        display: none;
+    }
+    .menus .row {
+        margin-top: 0!important;
+    }
+    .menus {
+        border-radius: 10px;
     }
     .word2 {
         display: flex;
@@ -969,7 +980,7 @@ list-style: circle!important;
         text-align: center;
     }
     .mycarousel img {
-        height: 500px;
+        height: unset;
     }
     .rightIcons a {
         float: none!important;
