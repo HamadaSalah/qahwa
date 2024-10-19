@@ -46,7 +46,7 @@
          </div>
     </div>
 </div>
-<div class="missionandvission mt-5">
+<div class="missionandvission mt-5 mb-5">
     <div class="container">
         <div class="row color-white">
             <h1 class="mt-5" >OUR PURPOSE</h1>
