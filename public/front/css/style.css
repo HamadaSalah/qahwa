@@ -204,14 +204,16 @@ a {
     text-align: center;
     margin: auto;
  }
-
+.mymenu  > p {
+    padding-top: 50px;
+}
 .mymenu h1 {
     font-weight: bold;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 
 .mymenu #nav-tab img {
-    filter: brightness(0) invert(0.7);
+    filter: brightness(0) invert(1);
     height: 90px;
     width: 100%;
 
@@ -228,7 +230,7 @@ a {
 .mymenu #nav-tab {
     display: ruby-text;
     border: 0;
-    margin-bottom: 100px;
+    margin-bottom: 250px;
 
 }
 
@@ -859,6 +861,15 @@ list-style: circle!important;
         padding-right: 0;
         font-size: 20px;
         text-shadow: 0 0 5px #ccc;
+        text-align: left;
+        width: 50%;
+        margin-top: -30px;
+    }
+    .navbar-brand img {
+        width: 120px!important;
+    }
+    .mymenu nav {
+        height: 200px!important;
     }
     .menus::before {
         display: none;
