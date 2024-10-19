@@ -7,9 +7,7 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <h1>Qahwah <br />VALLEY</h1>
-                                <p>The sky was cloudless and of a deep<br />
-                                    dark blue spectacle before us was<br />
-                                    indeed sublime.</p>
+                                <p>{{ Settings()->footer_desc }}
                             </div>
                             <div class="col-md-4">
                                 <h4>MENU</h4>
