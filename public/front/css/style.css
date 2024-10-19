@@ -223,7 +223,7 @@ a {
 
 }
 .mymenu h5 {
-    color: #383431;
+    color: #fff;
     margin: 10px 0;
 }
 
@@ -255,6 +255,9 @@ a {
 .mymenu .nav-tabs .nav-link.active {
     position: relative;
     background: none;
+}
+.mymenu .nav-tabs .nav-link.active h5 {
+    color: #422D2A;
 }
 .mymenu .nav-tabs .nav-link.active::after {
     content: '';
