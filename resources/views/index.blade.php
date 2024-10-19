@@ -44,7 +44,7 @@
                   </p>
                   <p style="color:#9b9998">{{ $set->about_p2 }}
                   </p>
-                  <button class="btn gbbtn">DISCOVER</button>
+                  <a href="{{ Route('about') }}"><button class="btn gbbtn">DISCOVER</button></a>
               </div>
           </div>
       </div>
