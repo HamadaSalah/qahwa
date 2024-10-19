@@ -869,6 +869,9 @@ list-style: circle!important;
     .menus {
         border-radius: 10px;
     }
+    .infoUs {
+        padding-top: 0px!important;
+    }
     .word2 {
         display: flex;
         order: 1;
