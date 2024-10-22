@@ -67,7 +67,7 @@
                             @csrf
                             <button class="btn   addtocart" type="submit">
                                 <img src="{{ asset('front/img/Frame 1.svg') }}" alt="" style="width: 27px;margin-right: 10px">
-                                  </i> <span class="Price">{{ $seller->price }}$</span>
+                                  {{-- </i> <span class="Price">{{ $seller->price }}$</span> --}}
                             </button>
                         </form>
 
@@ -127,7 +127,7 @@
                                                             </button>
                                                         </form>
                                 
-                                                        <span>{{ $prod->price }}$</span></div>
+                                                        <span>{{-- $prod->price --}}</span></div>
                                                 </div>                                                
                                             @endforeach
 
@@ -153,7 +153,7 @@
                                                             </button>
                                                         </form>
 
-                                                        <span>{{ $prod->price }}$</span>
+                                                        <span>{{-- $prod->price --}}</span>
                                                     
                                                     </div>
                                                 </div>                                                
@@ -166,7 +166,8 @@
                     @endforeach
                 </div>
                 <div class="clearfix mt-5"></div>
-                      <a href="{{ route('menu') }}"><button class="btn mybtn">FULL MENU</button></a>
+                      {{-- <a href="{{ route('menu') }}"><button class="btn mybtn">FULL MENU</button></a> --}}
+                      <a href="#"><button class="btn mybtn">FULL MENU</button></a>
 
             </div>
 

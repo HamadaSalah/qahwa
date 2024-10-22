@@ -343,7 +343,7 @@ a {
 
 .footer {
     padding: 60px 0;
-    background-color: #383431;
+    background-color: #fff;
     width: 100%;
     overflow: hidden;
     margin-top: 0;
@@ -351,14 +351,14 @@ a {
 }
 
 .left-footer {
-    background: #f9b074;
+    background: #E1D3AE;
     min-height: 420px;
     border-radius: 25px;
     padding: 100px;
 }
 
 .right-footer {
-    background: #f9b074;
+    background: #E1D3AE;
     min-height: 420px;
     border-radius: 25px 0 0 25px;
     padding: 100px;
@@ -375,15 +375,15 @@ a {
 
 .socailM {
     display: table-caption;
-    background: #383431;
-    color: #f9b074;
+    background: #000;
+    color: #e1d3ae;
     margin-bottom: 20px;
     width: 40px;
     height: 40px;
     font-size: 23px;
     text-align: center;
     line-height: 40px;
-    border-radius: 50%;
+    border-radius: 5px;
 }
 
 .rightIcons li {
@@ -813,7 +813,14 @@ list-style: circle!important;
     margin: auto;
     margin-bottom: 100px;
 }
-
+.xtwitter {
+    display: inline-block;
+    position: relative;
+    width: 43px;
+    height: 43px;
+    margin-top: -73px;
+    overflow: hidden;
+}
 
 
 

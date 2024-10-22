@@ -37,8 +37,9 @@
                             <h4>SOCIAL</h4>
                             <a target="_blank" href="{{ Settings()->fb }}"><i class="fa fa-facebook socailM"
                                     aria-hidden="true"></i></a>
-                            <a target="_blank" href="{{ Settings()->tw }}"><i class="fa fa-twitter socailM"
-                                    aria-hidden="true"></i></a>
+                            <a target="_blank" href="{{ Settings()->tw }}">
+                                <img src="{{ asset('front/img/square-x-twitter-brands-solid.svg') }}" fill="#FFF" class="xtwitter" alt="">
+                                </a>
                             <a target="_blank" href="{{ Settings()->ins }}"><i class="fa fa-instagram socailM"
                                     aria-hidden="true"></i></a>
                         </div>
